@@ -1,0 +1,34 @@
+{
+    "bans": [
+        {
+            "id": "1763379290333",
+            "email": "yousef.2323062@stemqena.moe.edu.eg",
+            "username": "Yousef Mohamed Gaber",
+            "reason": "معلش بلاش انت",
+            "durationDays": 3,
+            "createdAt": "2025-11-17T11:34:50.333Z",
+            "expiresAt": "2025-11-20T11:34:50.333Z",
+            "bannedBy": "yousefgaber2792008@gmail.com",
+            "bannedByName": "Yousef Mohamed Gaber",
+            "status": "lifted",
+            "liftedAt": "2025-11-17T11:37:18.472Z",
+            "liftedBy": "yousefgaber2792008@gmail.com",
+            "liftedByName": "Yousef Mohamed Gaber"
+        },
+        {
+            "id": "1763837731778",
+            "email": "yousef.2323062@stemqena.moe.edu.eg",
+            "username": "Yousef Mohamed Gaber",
+            "reason": "....",
+            "durationDays": 1,
+            "createdAt": "2025-11-22T18:55:31.778Z",
+            "expiresAt": "2025-11-23T18:55:31.778Z",
+            "bannedBy": "yousefgaber2792008@gmail.com",
+            "bannedByName": "Yousef Mohamed Gaber",
+            "status": "lifted",
+            "liftedAt": "2025-11-22T18:55:35.107Z",
+            "liftedBy": "yousefgaber2792008@gmail.com",
+            "liftedByName": "Yousef Mohamed Gaber"
+        }
+    ]
+}

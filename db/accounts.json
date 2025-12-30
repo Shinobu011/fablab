@@ -1,0 +1,1354 @@
+{
+    "accounts": [
+        {
+            "email": "yousef.2323062@stemqena.moe.edu.eg",
+            "username": "Yousef Mohamed Gaber",
+            "password": "$2b$12$4BezoCQ78fWUqCt8VRMyDewq293GFNR9bYtMH9R5FympM3B972YL6",
+            "grade": "G12",
+            "phone": "+201153106449",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T13:35:42.538Z"
+        },
+        {
+            "email": "yousefgaber2792008@gmail.com",
+            "username": "Yousef Mohamed Gaber",
+            "password": "$2b$12$xU8hS2xvM8wQZ4cbkkzYT.tXBtMkE/4/DNJIvfS1Yv1za.p6ACEw6",
+            "grade": "G12",
+            "phone": "+201153106449",
+            "isStemQena": false,
+            "createdAt": "2025-10-31T13:38:18.192Z"
+        },
+        {
+            "email": "amrelkhooly08@gmail.com",
+            "username": "Amr Elkhooly ",
+            "password": "$2b$12$tMNH6lJXqk3W5.GEj/zee.8UqN22/1djCnPvebYm/829bSERWHZI6",
+            "grade": "G12",
+            "phone": "+201001185869",
+            "isStemQena": false,
+            "createdAt": "2025-10-31T13:41:31.431Z"
+        },
+        {
+            "email": "mariam.2324539@stemqena.moe.edu.eg",
+            "username": "Mariam Sherif Ali Elamahallawy ",
+            "password": "$2b$12$aHfMyyUtMT6CdWywfKNgNOSVO2afmWHIYKRzP1hfTukuacALDr4Qu",
+            "grade": "G11",
+            "phone": "01014585816",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T13:54:39.357Z"
+        },
+        {
+            "email": "omar.2324034@stemqena.moe.edu.eg",
+            "username": "omar mahmoud ghallab",
+            "password": "$2b$12$V/wZT6HbxIW1HJOI9UFWw.NBrOIUhb.Hq/UP6aUDWqoSkXpTHVMtW",
+            "grade": "G11",
+            "phone": "01020765641",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T13:55:14.807Z"
+        },
+        {
+            "email": "amrmerom@gmail.com",
+            "username": "Amr",
+            "password": "$2b$12$fOTr1/KhCtPtAsuvyo582eKZkwUHC.iZXAWzBphLtunq6KQmhMsaG",
+            "grade": "G12",
+            "phone": "01001001891",
+            "isStemQena": false,
+            "createdAt": "2025-10-31T13:58:57.738Z"
+        },
+        {
+            "email": "fares.2324038@stemqena.moe.edu.eg",
+            "username": "Fares Mohamed ",
+            "password": "$2b$12$bQV1r2oirpDLwyjq59n4CeW0bjeKES6PUw6clVrtyxZkhfYUGmc4O",
+            "grade": "G11",
+            "phone": "01029091583",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T13:59:30.743Z"
+        },
+        {
+            "email": "arwa.2324501@stemqena.moe.edu.eg",
+            "username": "Arwa Ahmed Mohamed Abdelfatah",
+            "password": "$2b$12$l./fi5dyHxqBKMtGBhfC6uYu02OQdD79/iJcTzWi8OZLa1yXUvsVy",
+            "grade": "G11",
+            "phone": "+201092215670",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T14:01:35.177Z"
+        },
+        {
+            "email": "islam.2324503@stemqena.moe.edu.eg",
+            "username": "Salma Mahmoud Hassany ",
+            "password": "$2b$12$vaRjiAznk1H0tFW.2bwwA.ft6Umi0gtPeCaAerBfO8tmpAxdcm776",
+            "grade": "G11",
+            "phone": "+201156065680",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T14:11:04.998Z"
+        },
+        {
+            "email": "habiba.2323515@stemqena.moe.edu.eg",
+            "username": "Habiba ",
+            "password": "$2b$12$lRfQwogrce090dEaqwjmpuUjORjgj.696I/WaLtoZtLahhOBeT.se",
+            "grade": "G12",
+            "phone": "01093568007",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T14:16:47.023Z"
+        },
+        {
+            "email": "alaaelrahman.2325503@stemqena.moe.edu.eg",
+            "username": "Alaa Elrahman Hamdy",
+            "password": "$2b$12$B/fKWvIMBqqMfjXbquLSKO4a6VzjdtZAotC4q6G1yWlEFv3RwA8YK",
+            "grade": "G10",
+            "phone": "01101136840",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T14:24:38.641Z"
+        },
+        {
+            "email": "fareeda.2325526@stemqena.moe.edu.eg",
+            "username": "Farida",
+            "password": "$2b$12$xoYkvm/E3P/1Y5aM.c.xgOBKQjaWtrEpI6CgpwrOSUb05.BBLmr7a",
+            "grade": "G10",
+            "phone": "01030556527",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T14:39:59.517Z"
+        },
+        {
+            "email": "mariam.2324540@stemqena.moe.edu.eg",
+            "username": "Mariam Abdel-Nasser Hussien Tawfeek Mahmoud El-Shreif ",
+            "password": "$2b$12$mICZI.3MCT6/w.c2P55nb.5KLjYeFKC7UOIstD6XWa4kKB6usgpfC",
+            "grade": "G11",
+            "phone": "01063082211",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T14:50:09.836Z"
+        },
+        {
+            "email": "rahma.2324524@stemqena.moe.edu.eg",
+            "username": "Rahma",
+            "password": "$2b$12$tLrdL4/ZxaY9aK4QzJWlmu3fjmgb60VXS2ButU2VgMeBZJzR/IKRy",
+            "grade": "G11",
+            "phone": "01006636700",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T15:07:19.707Z"
+        },
+        {
+            "email": "malak.2324546@stemqena.moe.edu.eg",
+            "username": "Malak Ahmed Ali Mohamed",
+            "password": "$2b$12$ebunSFeGiwka6P8rr7y5/eympq8V9B6.p.Xf7fD7/9jF16oQZT4te",
+            "grade": "G11",
+            "phone": "01019688479",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T15:07:37.554Z"
+        },
+        {
+            "email": "kirilos.2324045@stemqena.moe.edu.eg",
+            "username": "Kirolos Samaan Ghobrail",
+            "password": "$2b$12$vW3hY6t0pqI61zAJWVnWBOIQ0YmZF6EtQM9JOxde7UNBRjeBYnYTG",
+            "grade": "G11",
+            "phone": "01102792366",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T15:17:26.652Z"
+        },
+        {
+            "email": "naira.2324558@stemqena.moe.edu.eg",
+            "username": "Nayara Mohamed",
+            "password": "$2b$12$Xo37hFbJ.i4.FidquHbGyeEX1glm4Tys38tM/oEBN1SxXY0X8XUwa",
+            "grade": "G11",
+            "phone": "01157463437",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T15:32:07.515Z"
+        },
+        {
+            "email": "AbdElRahman.2323018@stemqena.moe.edu.eg",
+            "username": "Abdelrahman Samy Mohamed Mostafa ",
+            "password": "$2b$12$jhBX9G3WG.MwT.DyKXga8utaym7eM47OGA61zdsKMVJ3BKR5D7IJi",
+            "grade": "G12",
+            "phone": "01018784768",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T17:54:37.034Z"
+        },
+        {
+            "email": "mohamed.2323042@stemqena.moe.edu.eg",
+            "username": "Mohamed Hamdy abd Elsatar ali ",
+            "password": "$2b$12$7jYxdsLc8Io8hnO12d2QmuW/tJUI8mdQMRiRWOXDiHnLassfU82/.",
+            "grade": "G12",
+            "phone": "+201113257908",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T19:00:48.153Z"
+        },
+        {
+            "email": "omar.2323031@stemqena.moe.edu.eg",
+            "username": "Omar Fathy Abelsalam ",
+            "password": "$2b$12$johPZDZLepbHBsk8qL259OsBJODPW3Y/TIzu0Or4c9YVWqn1Ks9TS",
+            "grade": "G12",
+            "phone": "01026608437",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T19:35:36.302Z"
+        },
+        {
+            "email": "ganatullah.2325509@stemqena.moe.edu.eg",
+            "username": "Ganna Ebrahim",
+            "password": "$2b$12$ozffcs5W1DkZnmtToiWHZ.rQDQcxF7djZPlS08msmdiVE3xQQW516",
+            "grade": "G10",
+            "phone": "201061286842",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T21:02:41.544Z"
+        },
+        {
+            "email": "yassen.2323053@stemqena.moe.edu.eg",
+            "username": "Yassen Ahmed Eid Hassan",
+            "password": "$2b$12$ZcBBS3JdsnXqumjx4qSFWOmxbwz4oZEU2/rr5SQ6KwNpzK6WXfHK2",
+            "grade": "G12",
+            "phone": "01278697377",
+            "isStemQena": true,
+            "createdAt": "2025-10-31T21:19:20.165Z"
+        },
+        {
+            "email": "ashraf.2324014@stemqena.moe.edu.eg",
+            "username": "Ashraf Elsayed Ahmed Abdelkhaleq",
+            "password": "$2b$12$v9rWjejlE0z9zcPezKZeIupf1UMhldtOV2PEBsu6ooFs8sb8//jIC",
+            "grade": "G11",
+            "phone": "+201003707101",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T07:48:17.749Z"
+        },
+        {
+            "email": "ahmedalifantasy257@gmail.com",
+            "username": "Ahmed",
+            "password": "$2b$12$h3Wi0c3qpnm5sUsj3hL/OO.ghrVHMsc8WHzgZbybRhGdhkHvkVnka",
+            "grade": "G11",
+            "phone": "01070446954",
+            "isStemQena": false,
+            "createdAt": "2025-11-01T10:04:36.482Z"
+        },
+        {
+            "email": "ranaahmed17stem@gmail.com",
+            "username": "Rana Ahmed Abdelraheem",
+            "password": "$2b$12$uHTKICZoWmozEnx.LKw3/OJugHVbkQqYcDKtWZmQyiqUmhQoe5Vw2",
+            "grade": "G12",
+            "phone": "01091986707",
+            "isStemQena": false,
+            "createdAt": "2025-11-01T10:06:13.995Z"
+        },
+        {
+            "email": "omnia.2324505@stemqena.moe.edu.eg",
+            "username": "Omnia Abdelfattah ",
+            "password": "$2b$12$w4wXeKBg1.z96N5Aex99dO2EBFh609a1LWcixQcqFQwY1aGii5qf2",
+            "grade": "G11",
+            "phone": "01016299486",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T10:07:38.508Z"
+        },
+        {
+            "email": "moazelsohagy@gmail.com",
+            "username": "Moaz Mahmoud Mohamed ",
+            "password": "$2b$12$H4VwmB4ZswnUxVWIVMsC1.0gnxYamdOJoEhYmqkfXW1BdAlpfv20G",
+            "grade": "G12",
+            "phone": "01150854511",
+            "isStemQena": false,
+            "createdAt": "2025-11-01T10:09:26.569Z"
+        },
+        {
+            "email": "mohamed.2323043@stemqena.moe.edu.eg",
+            "username": "Mohamed Rady Ibrahim Zaki",
+            "password": "$2b$12$RfPerBQ0MIwV8KJsTHeeeukIzKjtD8Zhw9AIHDrPnOCePnPrUFcT.",
+            "grade": "G12",
+            "phone": "01225622331",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T10:09:52.320Z"
+        },
+        {
+            "email": "youssef.2323059@stemqena.moe.edu.eg",
+            "username": "Youssef Ali",
+            "password": "$2b$12$yzj8z3syWJMDq9EdpnMXRO3LHhkBS7tJo6wHuXlovfLd8Qvh7wjLK",
+            "grade": "G12",
+            "phone": "01011162559",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T10:10:46.118Z"
+        },
+        {
+            "email": "judy.2324518@stemqena.moe.edu.eg",
+            "username": "Judy Mohamed Shaaban",
+            "password": "$2b$12$kraeMssMrT01fpUBfapFDu32FXq06ttS7UlxYr2rPQdX6SkZxbjQa",
+            "grade": "G11",
+            "phone": "01552960901",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T10:11:50.271Z"
+        },
+        {
+            "email": "mohamed.2324047@stemqena.moe.edu.eg",
+            "username": "Mohammed Ahmed Khalil",
+            "password": "$2b$12$uQU7B9yfhWcqsza.hUT2ZebDxP6pK8jLeWqij9AFKBlljCX6YtbPa",
+            "grade": "G11",
+            "phone": "+201552675446",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T10:13:46.993Z"
+        },
+        {
+            "email": "yaseen.2323052@stemqena.moe.edu.eg",
+            "username": "Yaseen Mohamed Hassan ",
+            "password": "$2b$12$E.5O.DLnDHxgLAlVmVgbjuXGaJMwBFXSWkyRW74/e6GKe6TmGM7w2",
+            "grade": "G12",
+            "phone": "01123708187",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T10:14:08.712Z"
+        },
+        {
+            "email": "basem.2323009@stemqena.moe.edu.eg",
+            "username": "Basem Mohamed ",
+            "password": "$2b$12$ZRUybq5/LEWPqf4ZOOTqiu4k0DseGomym5YJhoQD3OqWCAH0Z7gPq",
+            "grade": "G12",
+            "phone": "+201017082870",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T10:15:16.319Z"
+        },
+        {
+            "email": "rokia.2323522@stemqena.moe.edu.eg",
+            "username": "Rokia",
+            "password": "$2b$12$tGZokC6UCK6VDW2VaXtyHuEeMkPouM1buJ2U39SkEtibEGGWDDvJW",
+            "grade": "G12",
+            "phone": "+201204370554",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T10:15:32.528Z"
+        },
+        {
+            "email": "salma.2323536@stemqena.moe.edu.eg",
+            "username": "Salma",
+            "password": "$2b$12$WVMkkiGRJP9gzJvlhaaBa.yYoHQLXpQrGinB60Y5md5YmgPRUzncW",
+            "grade": "G12",
+            "phone": "01032467329 ",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T10:17:36.535Z"
+        },
+        {
+            "email": "omar.2324029@stemqena.moe.edu.eg",
+            "username": "Omar Gomaa",
+            "password": "$2b$12$3z71N8SwYGNvKHzzPruNFeNsLW/r.ruVmu2QCH3E9tVrqdUDtHwj2",
+            "grade": "G11",
+            "phone": "01124377807",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T10:25:10.111Z"
+        },
+        {
+            "email": "nora.2325539@stemqena.moe.edu.eg",
+            "username": "nora",
+            "password": "$2b$12$aHCvBYrQbFaPBgygD.k/cOiKBLOgvPJcNU07kzDUVdqMO7VLQVfra",
+            "grade": "G10",
+            "phone": "01143867959",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T10:32:53.729Z"
+        },
+        {
+            "email": "ansam.2325505@stemqena.moe.edu.eg",
+            "username": "Ansam Mostafa",
+            "password": "$2b$12$E5l2/HyyltB.0R5fVg4tpumNsJMS0pccwQ7GXyozMRvWKowQgCZNG",
+            "grade": "G10",
+            "phone": "01004263890",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T11:46:26.602Z"
+        },
+        {
+            "email": "hala.2324559@stemqena.moe.edu.eg",
+            "username": "Hala Ahmed Mohamed Attia",
+            "password": "$2b$12$RUe4HLmtNFHAF1QnW8pobemIGR593r9uQ1EYsA14gG1FwBVy3Bt0O",
+            "grade": "G11",
+            "phone": "01155909351",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T12:18:41.145Z"
+        },
+        {
+            "email": "rushdi.2324021@stemqena.moe.edu.eg",
+            "username": "Roshdy Mohsen ",
+            "password": "$2b$12$pAX2n4gVyveEMyFHxk8jPezh8DyT/olU8MQtgbaTJeeulsleB6R9y",
+            "grade": "G11",
+            "phone": "01019550546",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T12:39:55.586Z"
+        },
+        {
+            "email": "reem.2323525@stemqena.moe.edu.eg",
+            "username": "Reem Abdelrahman",
+            "password": "$2b$12$Pmr9MmJIR2WIrs/3p867g.ixZel5rVvQh2yhMTG5DUpedlFMyPVSK",
+            "grade": "G12",
+            "phone": "+201018213313",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T12:46:36.352Z"
+        },
+        {
+            "email": "abdullah.2323022@stemqena.moe.edu.eg",
+            "username": "Abdullah Hisham ",
+            "password": "$2b$12$NWW5eudGsh3RuAj6dAoZpeKrJRyHYdjZYwTUTL2g6xm0S40rugIaa",
+            "grade": "G12",
+            "phone": "01032358302",
+            "isStemQena": true,
+            "createdAt": "2025-11-01T14:04:39.741Z"
+        },
+        {
+            "email": "amr.abdelshafy@stemqena.moe.edu.eg",
+            "username": "Amr Abdelshafy",
+            "password": "$2b$12$Nko45fjAcTovXZUbeslp6eYc4wvjWlwNQT96UB6A0SqyEOrgzwC/q",
+            "grade": "G12",
+            "phone": "01001001891",
+            "isStemQena": true,
+            "createdAt": "2025-11-02T07:27:24.546Z"
+        },
+        {
+            "email": "yousefdaily1@gmail.com",
+            "username": "Yousef",
+            "password": "$2b$12$5eXncSX0i5NC.jHw5w9Wwe/ZImeZVWdBJhtjKftpJETbMUaBwwMtS",
+            "grade": "G12",
+            "phone": "+201153106449",
+            "isStemQena": false,
+            "createdAt": "2025-11-02T08:27:51.516Z"
+        },
+        {
+            "email": "retaj.2324526@stemqena.moe.edu.eg",
+            "username": "Retaj Mohamed Hassan",
+            "password": "$2b$12$i61kMh9XfIfQThVQMRIz5uXDjoStGTNODh8xHNrrJ6hCp5j2tDS6m",
+            "grade": "G11",
+            "phone": "01551027045",
+            "isStemQena": true,
+            "createdAt": "2025-11-03T04:35:08.825Z"
+        },
+        {
+            "email": "adam.2324010@stemqena.moe.edu.eg",
+            "username": "Adam Ahmed",
+            "password": "$2b$12$YJksplj2KuEIf0luDBrZ2euVoOwbdGhpEmlvDn1KjTDwF9Y.aUWBK",
+            "grade": "G11",
+            "phone": "01026865392",
+            "isStemQena": true,
+            "createdAt": "2025-11-03T12:44:46.933Z"
+        },
+        {
+            "email": "ahmed.2324003@stemqena.moe.edu.eg",
+            "username": "Ahmed hazem gala",
+            "password": "$2b$12$KI9fd15hocr9pRFDfGmfvu0dSSVWmr.5qQNZei90GC4eSpMO/i0gm",
+            "grade": "G11",
+            "phone": "01003089689",
+            "isStemQena": true,
+            "createdAt": "2025-11-03T13:10:51.668Z"
+        },
+        {
+            "email": "nadaadel28112008@gmail.com",
+            "username": "Nada ",
+            "password": "$2b$12$Gzh90xaetafWRllfCjit0OoN5yS6hzjKxKnlLzSO8VfCw36fsl0J6",
+            "grade": "G11",
+            "phone": "01113293506",
+            "isStemQena": false,
+            "createdAt": "2025-11-03T18:32:56.538Z"
+        },
+        {
+            "email": "nour.2324557@stemqena.moe.edu.eg",
+            "username": "Nour",
+            "password": "$2b$12$jXqzixVz1H.gg9FiVidLeuqWJlaKrsF9hLdaKc5aUsvJYwl5.9m8u",
+            "grade": "G11",
+            "phone": "01011222835",
+            "isStemQena": true,
+            "createdAt": "2025-11-03T18:47:34.509Z"
+        },
+        {
+            "email": "hmalk8800@gmail.com",
+            "username": "Malak Hamada ",
+            "password": "$2b$12$TZpvNO7393na2.PF49TtkuxQIfUChCFPTWKJBQ0mKCS.RrIzBwN7W",
+            "grade": "G11",
+            "phone": "01159332214",
+            "isStemQena": false,
+            "createdAt": "2025-11-04T13:32:46.711Z"
+        },
+        {
+            "email": "malk.2324547@stemqena.moe.edu.eg",
+            "username": "Malak Hamada ",
+            "password": "$2b$12$MOY8NQX7T0os0UQp7zbNDOj5/sYbAHJzMUWBXZFx0ex8dvMiL.oZm",
+            "grade": "G11",
+            "phone": "01159332214",
+            "isStemQena": true,
+            "createdAt": "2025-11-04T13:36:37.607Z"
+        },
+        {
+            "email": "alaaabdelnaby2009@gmail.com",
+            "username": "Alaa Abdelnaby",
+            "password": "$2b$12$LLyLNviH1iT.pieWUKINRukTw2pOXDG4eeb0Bp8GF0fH25dbqns2y",
+            "grade": "G11",
+            "phone": "01281737939",
+            "isStemQena": false,
+            "createdAt": "2025-11-04T13:37:36.282Z"
+        },
+        {
+            "email": "roshdymohsen2018@gmail.com",
+            "username": "Roshdy mohsen",
+            "password": "$2b$12$DWMvlO6IPdSwTUb/20aQ6ux4Y0r1l3tbzjj3OZcynk38howFtaoSC",
+            "grade": "G11",
+            "phone": "01019550546",
+            "isStemQena": false,
+            "createdAt": "2025-11-04T21:36:24.679Z"
+        },
+        {
+            "email": "sondos.2323538@stemqena.moe.edu.eg",
+            "username": "Sondos Ahmed",
+            "password": "$2b$12$H2FUIugZVD.acP9cKRcvKeEMb/2PMnfD5QqFz5UHaJ0GIc6Rjq78S",
+            "grade": "G12",
+            "phone": "01010685105",
+            "isStemQena": true,
+            "createdAt": "2025-11-05T06:33:27.621Z"
+        },
+        {
+            "email": "ahmed.2324006@stemqena.moe.edu.eg",
+            "username": "ahmed",
+            "password": "$2b$12$Nz2wwh0FP5LMcWYBFihf2.5cjafPUMeuyyZO/5FPgX1UkL7.zvMm2",
+            "grade": "G11",
+            "phone": "01070446954",
+            "isStemQena": true,
+            "createdAt": "2025-11-05T07:20:13.722Z"
+        },
+        {
+            "email": "mona.2323549@stemqena.moe.edu.eg",
+            "username": "mona yasser abdelrahman ali metwally",
+            "password": "$2b$12$xxT38WYgJhBHskds3JFOo.EuZPaa7SJbd1sFqnTGXNGRDectm7XYS",
+            "grade": "G12",
+            "phone": "+201129041877",
+            "isStemQena": true,
+            "createdAt": "2025-11-05T12:55:56.218Z"
+        },
+        {
+            "email": "mariam.rabie2008@gmail.com",
+            "username": "Mariam",
+            "password": "$2b$12$HD0XRx2zvPUYV1/MBTBFTOWa/hfPRQTN6nMyBejnQD0TOKG2/eyMe",
+            "grade": "G11",
+            "phone": "01100723377",
+            "isStemQena": false,
+            "createdAt": "2025-11-05T13:39:53.864Z"
+        },
+        {
+            "email": "lameesnassar72@gmail.com",
+            "username": "Lamees",
+            "password": "$2b$12$3SWikRlo6uwGgtONTDQ23uvfr1JRWzO6eqTbF78s0Aci0LMkH39Ni",
+            "grade": "G11",
+            "phone": "01016508098",
+            "isStemQena": false,
+            "createdAt": "2025-11-05T13:51:21.615Z"
+        },
+        {
+            "email": "daidaikhaledahmed@gmail.com",
+            "username": "Dai",
+            "password": "$2b$12$HnczHEdk7dkWq9lZzdHs5.7tD3oMdf81wBJ83fwAboRJLxigtfLQO",
+            "grade": "G11",
+            "phone": "01150556506",
+            "isStemQena": false,
+            "createdAt": "2025-11-05T15:21:08.425Z"
+        },
+        {
+            "email": "nour.2323553@stemqena.moe.edu.eg",
+            "username": "Nour Emad Sayed thabit ",
+            "password": "$2b$12$B0MiwzAYeeKccEVR3G1f4.3p4J6jcjJdIR4fuDzb4ZPyjnlN69pXy",
+            "grade": "G12",
+            "phone": "01061746651",
+            "isStemQena": true,
+            "createdAt": "2025-11-05T18:55:01.622Z"
+        },
+        {
+            "email": "omar.2324035@stemqena.moe.edu.eg",
+            "username": "Omar Menshawy",
+            "password": "$2b$12$KGAz5N5ROFuafZ1vaLJn8uQtK8hGEK2jT/Ux7LwWay4vprNAZGwg.",
+            "grade": "G11",
+            "phone": "+201008999865",
+            "isStemQena": true,
+            "createdAt": "2025-11-05T19:34:08.564Z"
+        },
+        {
+            "email": "lamis.2324537@stemqena.moe.edu.eg",
+            "username": "lamees nassar",
+            "password": "$2b$12$YPFbPdy0SA896UQKiZoW3eIzRUMsXrSsjjeXUCWKG7ELZ8BheYXYC",
+            "grade": "G11",
+            "phone": "01016508098",
+            "isStemQena": true,
+            "createdAt": "2025-11-05T21:38:13.614Z"
+        },
+        {
+            "email": "maryam.2324542@stemqena.moe.edu.eg",
+            "username": "Mariam Mahmoud Mohamed Rabie",
+            "password": "$2b$12$vsQJiUNraN5bRrKDwgQ1L.2KV/C2zUbQBV2twMfT98mwOqLUSJfza",
+            "grade": "G11",
+            "phone": "01100723377",
+            "isStemQena": true,
+            "createdAt": "2025-11-06T07:05:27.531Z"
+        },
+        {
+            "email": "yassin.2323051@stemqena.moe.edu.eg",
+            "username": "Yassin Hatem Hussein",
+            "password": "$2b$12$UzbmjiUzTP.n/tS2hm7Aze1iLX7ZtmHm/DOJPEiPN4EJI6T0giLN.",
+            "grade": "G12",
+            "phone": "01096781551",
+            "isStemQena": true,
+            "createdAt": "2025-11-09T06:47:24.792Z"
+        },
+        {
+            "email": "s28546138@gmail.com",
+            "username": "SaraGomaa ",
+            "password": "$2b$12$j5oVI0W5p.vnMNvwgRLqze2fKjSJex7o5lqylkJXnfXQhH5WiTREe",
+            "grade": "G10",
+            "phone": "01140757853",
+            "isStemQena": false,
+            "createdAt": "2025-11-10T11:59:55.868Z"
+        },
+        {
+            "email": "mariamebeahim@gmail.com",
+            "username": "Mariam Ibrahim",
+            "password": "$2b$12$mYUYd1dvd7SWvvm1hIJGl.af0XY6.UcJzyUgT06k.avSO9/QnZcHW",
+            "grade": "G12",
+            "phone": "01117171760",
+            "isStemQena": false,
+            "createdAt": "2025-11-11T16:48:11.410Z"
+        },
+        {
+            "email": "malak.2323546@stemqena.moe.edu.eg",
+            "username": "Malak Mohamed Ahmed ",
+            "password": "$2b$12$ky7vmZmQpknZNFByafdqFO.gFlSmDAzYu0Goykx/EodxsHmMIeneq",
+            "grade": "G12",
+            "phone": "01012482626",
+            "isStemQena": true,
+            "createdAt": "2025-11-11T17:33:30.356Z"
+        },
+        {
+            "email": "menamagdy182008@gmail.com",
+            "username": "Mena Magdy Effat ",
+            "password": "$2b$12$QLVRy9IFfvTcQFgQsi7f/uiLCYgrm7vTBxlm0r.Jcry08YKfsC0IW",
+            "grade": "G12",
+            "phone": "01009104356",
+            "isStemQena": false,
+            "createdAt": "2025-11-11T18:21:45.727Z"
+        },
+        {
+            "email": "mariam.2323543@stemqena.moe.edu.eg",
+            "username": "Mariam Ibrahim ",
+            "password": "$2b$12$EuZuJE6buzetTZak8OVnTOjgsiSMHpngxCfBBKFhvyQCX0hYUhV5u",
+            "grade": "G12",
+            "phone": "01117171460",
+            "isStemQena": true,
+            "createdAt": "2025-11-11T20:19:59.552Z"
+        },
+        {
+            "email": "andrew.2323007@stemqena.moe.edu.eg",
+            "username": "Andrew Ashraf Abdew",
+            "password": "$2b$12$dGUL/IvxAMHuO4HQ9KJtc.FlKrAZcdIGKrzSrcXUApLgzvHKCtoDy",
+            "grade": "G12",
+            "phone": "01226768262",
+            "isStemQena": true,
+            "createdAt": "2025-11-12T11:25:40.527Z"
+        },
+        {
+            "email": "ahmedmazroue73@gmail.com",
+            "username": "Ahmed Mazroue ",
+            "password": "$2b$12$TF5ZiGdt10IO1lxz/94/Sus/.ZGDjTMQxlAxME9.C0sqtS9laI8aq",
+            "grade": "G12",
+            "phone": "201080570847",
+            "isStemQena": false,
+            "createdAt": "2025-11-12T11:37:27.548Z"
+        },
+        {
+            "email": "hosam.2323010@stemqena.moe.edu.eg",
+            "username": "Hos",
+            "password": "$2b$12$/aNd2M/bV30EgxaYk1qT..2ULnP5PtX905pWdCfHn29dLQ57X5h.2",
+            "grade": "G12",
+            "phone": "01007938742",
+            "isStemQena": true,
+            "createdAt": "2025-11-12T11:47:02.389Z"
+        },
+        {
+            "email": "seif.2323016@stemqena.moe.edu.eg",
+            "username": "Saif",
+            "password": "$2b$12$h6rj6O63Le3S7ollkQGyXeX8.ow6yS4gsk6CqVoDP9ONkA.aGkMim",
+            "grade": "G12",
+            "phone": "01017855805 ",
+            "isStemQena": true,
+            "createdAt": "2025-11-12T15:04:17.837Z"
+        },
+        {
+            "email": "philipatef56lol@gmail.com",
+            "username": "Philopateer Atef Samir",
+            "password": "$2b$12$yM3.mkFTFyD1Y5A7CnEjVeK4k1zL5ZQ6MI0DqXdkOyErWWZuxMTy2",
+            "grade": "G12",
+            "phone": "01024295426",
+            "isStemQena": false,
+            "createdAt": "2025-11-12T17:23:50.012Z"
+        },
+        {
+            "email": "flubateir.2323033@stemqena.moe.edu.eg",
+            "username": "Philopateer",
+            "password": "$2b$12$eaSRuNoGVyEgL/7qJVyGYO1VcMM.Om9ImCeotQ.DBzpFE/amyo5Va",
+            "grade": "G12",
+            "phone": "01024295426",
+            "isStemQena": true,
+            "createdAt": "2025-11-12T17:25:49.447Z"
+        },
+        {
+            "email": "amirapfarrag123@gmail.com",
+            "username": "Amira ahmed Mohamed ",
+            "password": "$2b$12$Gho/sjZPqprt6BN6fAByZ.qw8v7VIHn6rvu8dmruR47.BlSwOdk02",
+            "grade": "G11",
+            "phone": "01147419277",
+            "isStemQena": false,
+            "createdAt": "2025-11-13T22:49:47.202Z"
+        },
+        {
+            "email": "amira.2324506@stemqena.moe.edu.eg",
+            "username": "Amira ahmed",
+            "password": "$2b$12$2wxIoZdT89bh4PpJT2fuounx/QjbXHdd3bJ7MWus7hWpiC4XARNxa",
+            "grade": "G11",
+            "phone": "01147419277",
+            "isStemQena": true,
+            "createdAt": "2025-11-13T22:59:48.129Z"
+        },
+        {
+            "email": "soadrsalem@gmail.com",
+            "username": "Soad Reda ",
+            "password": "$2b$12$ckESISHK1943kshJXNkURunhkL6GlaMEzOjPdfPy5i0BSkcGJv.zm",
+            "grade": "G12",
+            "phone": "+201270924905",
+            "isStemQena": false,
+            "createdAt": "2025-11-15T20:36:44.516Z"
+        },
+        {
+            "email": "soad.2323532@stemqena.moe.edu.eg",
+            "username": "Soad ",
+            "password": "$2b$12$mKyRpImEsOF5FY/bAbKpWOdQH5nkPxtYWHTFTtwrMEdkCJmrBmTT2",
+            "grade": "G12",
+            "phone": "+201270624905",
+            "isStemQena": true,
+            "createdAt": "2025-11-15T20:39:27.429Z"
+        },
+        {
+            "email": "radroda12900@gmail.com",
+            "username": "Radwa abdelmaksoud",
+            "password": "$2b$12$mcPDdfiSraPhgpNgjUhYsuxYPcLr20zsG5EkFPksZUl90zoWn2DPy",
+            "grade": "G12",
+            "phone": "01152516693",
+            "isStemQena": false,
+            "createdAt": "2025-11-16T06:09:13.236Z"
+        },
+        {
+            "email": "radwa.2323519@stemqena.moe.edu.eg",
+            "username": "Radwa abdelmaksoud fahmy",
+            "password": "$2b$12$1dgWYE9noWLVYASBJ30LfOR5HLDEUfJga.He.aszpYav.u9KvMaVW",
+            "grade": "G12",
+            "phone": "01152516693",
+            "isStemQena": true,
+            "createdAt": "2025-11-16T06:13:31.740Z"
+        },
+        {
+            "email": "sedrahamada471@gmail.com",
+            "username": "Sedra",
+            "password": "$2b$12$sAPok9YNEqMNzEE36mo6lO9UhWYc3qEpRiMGBZk2nXIQ5O5trBNKy",
+            "grade": "G12",
+            "phone": "01281271322",
+            "isStemQena": false,
+            "createdAt": "2025-11-16T08:29:17.274Z"
+        },
+        {
+            "email": "sedra.2323531@stemqena.moe.edu.eg",
+            "username": "Sedra",
+            "password": "$2b$12$gxX9e7H9FRl5Zml3vfwSiuVaOVFpi6iOev/xCOkw9HHUFUjna0jai",
+            "grade": "G12",
+            "phone": "01281271322",
+            "isStemQena": true,
+            "createdAt": "2025-11-16T08:35:24.624Z"
+        },
+        {
+            "email": "hanen.2323517@stemqena.moe.edu.eg",
+            "username": "Hanen Ahmed Moharam ",
+            "password": "$2b$12$hAduDI0Uc1jnl71I217MGO0VtyK0vtRypFxB8Qat5OrXAprw6QvJe",
+            "grade": "G12",
+            "phone": "01010518939",
+            "isStemQena": true,
+            "createdAt": "2025-11-16T09:16:40.844Z"
+        },
+        {
+            "email": "arwamoh57@gmail.com",
+            "username": "Arwa Mohamed ",
+            "password": "$2b$12$NggFDvnBxdlP8f0h37m0deOxIHPNAcpDa4jz6KrGWHMaaHUgyz0Fa",
+            "grade": "G11",
+            "phone": "01015981098",
+            "isStemQena": false,
+            "createdAt": "2025-11-16T09:34:42.945Z"
+        },
+        {
+            "email": "mohamed.2323041@stemqena.moe.edu.eg",
+            "username": "Mohamed Tharwat ",
+            "password": "$2b$12$OFi6SpurwaMDtfXywzZU9eH9zOzha4Yxle5AcQtOXe58T690gUWNW",
+            "grade": "G12",
+            "phone": "01286612845",
+            "isStemQena": true,
+            "createdAt": "2025-11-16T09:41:02.430Z"
+        },
+        {
+            "email": "amr.2323032@stemqena.moe.edu.eg",
+            "username": "Amr Mohamed Tawfik",
+            "password": "$2b$12$GDTChkF088Eoo5m4Pw0oGO788hpaVKW/S6SUT2Ts9wdz22gOzUZKK",
+            "grade": "G12",
+            "phone": "+201001185869",
+            "isStemQena": true,
+            "createdAt": "2025-11-16T09:54:45.004Z"
+        },
+        {
+            "email": "zeinab.2323528@stemqena.moe.edu.eg",
+            "username": "Zeinab Mohamed ",
+            "password": "$2b$12$1KNjoy5hu8dgBxAdNkRM1.Tm/BpxbZ7k8SZGOEuSsQnK1uaUYOnsC",
+            "grade": "G12",
+            "phone": "01000564757",
+            "isStemQena": true,
+            "createdAt": "2025-11-16T09:56:42.199Z"
+        },
+        {
+            "email": "arwa.2324502@stemqena.moe.edu.eg",
+            "username": "Arwa",
+            "password": "$2b$12$m9jrZlXZ5HktqKxUi0skfuCRHgfJ1xL4g.GCJ30C6gEEKdte9ni1W",
+            "grade": "G11",
+            "phone": "01015981098",
+            "isStemQena": true,
+            "createdAt": "2025-11-16T11:19:12.211Z"
+        },
+        {
+            "email": "jana.2324516@stemqena.moe.edu.eg",
+            "username": "Jana Mohammed ",
+            "password": "$2b$12$hf3.W/X45llWeA05c5vRbuc0FFZQw1S1FJ/FwvDKrspIN1cP4NjeO",
+            "grade": "G11",
+            "phone": "01100977857",
+            "isStemQena": true,
+            "createdAt": "2025-11-16T11:26:06.129Z"
+        },
+        {
+            "email": "eyad.2325008@stemqena.moe.edu.eg",
+            "username": "eyad",
+            "password": "$2b$12$PqAO7gml9js/iOYY.Tz6rev/3rnohMyWWY1MUh3g0pUcjVaWN7UKq",
+            "grade": "G10",
+            "phone": "01044008304",
+            "isStemQena": true,
+            "createdAt": "2025-11-16T13:00:26.684Z"
+        },
+        {
+            "email": "mohamed.2323039@stemqena.moe.edu.eg",
+            "username": "Mohamed osama ahmed",
+            "password": "$2b$12$ZqEtMCz8NtMYRaKqdkYlweERRRzqpRLkRm6FnOoD5mu2opQyVhwrm",
+            "grade": "G12",
+            "phone": "+201272260242",
+            "isStemQena": true,
+            "createdAt": "2025-11-16T13:45:42.097Z"
+        },
+        {
+            "email": "abdallah19102008@gmail.com",
+            "username": "Abdallah",
+            "password": "$2b$12$5YIvkigYHEe4HNPQ9Oq.p.12xleuJ6WrooPtm3DyChS/0dq7MJlvK",
+            "grade": "G12",
+            "phone": "01154962703",
+            "isStemQena": false,
+            "createdAt": "2025-11-16T14:25:01.618Z"
+        },
+        {
+            "email": "malk.2324544@stemqena.moe.edu.eg",
+            "username": "Malak Aboalhassan",
+            "password": "$2b$12$EVniakSEUnoBtQ.gzD7yk.cLRxlcw8oJxKZfhZC0pRlwAv1pIRloi",
+            "grade": "G11",
+            "phone": "01080090935",
+            "isStemQena": true,
+            "createdAt": "2025-11-16T15:03:57.683Z"
+        },
+        {
+            "email": "sherry.2324533@stemqena.moe.edu.eg",
+            "username": "Shery Michael Saed Basta ",
+            "password": "$2b$12$a0IeaXhKi7xV7quDp.QTIetwXzj2cKe2JA7RKiNf0sbgUDB6G/4ia",
+            "grade": "G11",
+            "phone": "01229036330",
+            "isStemQena": true,
+            "createdAt": "2025-11-16T15:04:59.721Z"
+        },
+        {
+            "email": "abrar.2323501@stemqena.moe.edu.eg",
+            "username": "Abrar",
+            "password": "$2b$12$rBiGma2I9q0C7vqxSpg25u6BPugoL393Z5j1IAv8cZMFtvljev2ge",
+            "grade": "G12",
+            "phone": "01114533052",
+            "isStemQena": true,
+            "createdAt": "2025-11-16T15:09:52.080Z"
+        },
+        {
+            "email": "basma.2324512@stemqena.moe.edu.eg",
+            "username": "basma",
+            "password": "$2b$12$Fj8cdwiNekS2m78PHg34GeMVgNXtT390urzYKz1lVwzdQS5oGghQq",
+            "grade": "G11",
+            "phone": "01277417292",
+            "isStemQena": true,
+            "createdAt": "2025-11-17T10:38:08.063Z"
+        },
+        {
+            "email": "farida.2324536@stemqena.moe.edu.eg",
+            "username": "Farida Emadeddin Sabry ",
+            "password": "$2b$12$AW0vYur/b.xhAnA5bmGIpO0LJCtIU3YQk27wmOwZkEJjyNrPkjFFu",
+            "grade": "G11",
+            "phone": "01155521726",
+            "isStemQena": true,
+            "createdAt": "2025-11-17T10:45:12.680Z"
+        },
+        {
+            "email": "maria.2323542@stemqena.moe.edu.eg",
+            "username": "Maria",
+            "password": "$2b$12$QFdRjsOtIEFQ7JswePLDy.HCZMyVnWf6AJ5ing58FPed6Gvak.oFS",
+            "grade": "G12",
+            "phone": "01277709593",
+            "isStemQena": true,
+            "createdAt": "2025-11-17T11:12:29.330Z"
+        },
+        {
+            "email": "safwa.2323541@stemqena.moe.edu.eg",
+            "username": "Safwa Abdelgawad Muslim ",
+            "password": "$2b$12$M8vEgLSWzCkVT0CcaJnI6e7kntfmnpx/4GY2S02E88D/KCRTMkzYK",
+            "grade": "G12",
+            "phone": "01029118435",
+            "isStemQena": true,
+            "createdAt": "2025-11-17T11:18:26.826Z"
+        },
+        {
+            "email": "youssef.2323063@stemqena.moe.edu.eg",
+            "username": "Youssef Mohamed Abdelhamid",
+            "password": "$2b$12$3Lxz7CKUY58yjo55qmds5O6pbzw94z2eExEjVUrRiSWfcWZ7BjdEm",
+            "grade": "G12",
+            "phone": "+201277435047",
+            "isStemQena": true,
+            "createdAt": "2025-11-17T22:52:14.851Z"
+        },
+        {
+            "email": "yara41654@gmail.com",
+            "username": "Yara",
+            "password": "$2b$12$5ifyfQOoAX.UbJwebw.fSedRzxqD7f.Ayj2c5M.yEkPnQlxZHzNvW",
+            "grade": "G12",
+            "phone": "01228009660",
+            "isStemQena": false,
+            "createdAt": "2025-11-18T07:53:18.799Z"
+        },
+        {
+            "email": "yara.2323556@stemqena.moe.edu.eg",
+            "username": "Yara",
+            "password": "$2b$12$HoFI4xnv.hRSGs61aOR4gu8jUY3KHL/HmS2SkJkADOZghz4PmarQS",
+            "grade": "G12",
+            "phone": "01228009660",
+            "isStemQena": true,
+            "createdAt": "2025-11-18T07:56:18.225Z"
+        },
+        {
+            "email": "rokia.2323521@stemqena.moe.edu.eg",
+            "username": "Rokia Hussain ",
+            "password": "$2b$12$q6cLPBmNhmJTvLsFc55G.uDML3qh41ZowIRAP6SmLk7MVj3vdpWbu",
+            "grade": "G12",
+            "phone": "01092424405",
+            "isStemQena": true,
+            "createdAt": "2025-11-18T09:05:24.271Z"
+        },
+        {
+            "email": "ahmed.2323002@stemqena.moe.edu.eg",
+            "username": "Ahmed Ayman ",
+            "password": "$2b$12$oHoB1Xu85YbuGJJGxwrArORWPRfWLuotfmEOUy5hPG7SZdWjxT2OO",
+            "grade": "G12",
+            "phone": "01021291843",
+            "isStemQena": true,
+            "createdAt": "2025-11-18T23:17:58.071Z"
+        },
+        {
+            "email": "tootya49@gmail.com",
+            "username": "Abdallah Ahmed Abd-Alrahim ",
+            "password": "$2b$12$VOpk5irqXgzbavTRJ1bYBuXAkozBHTAIQ/jSewUF/wIBnG5gciO5C",
+            "grade": "G12",
+            "phone": "01064461800",
+            "isStemQena": false,
+            "createdAt": "2025-11-19T08:45:27.134Z"
+        },
+        {
+            "email": "smohmoud11@gmail.com",
+            "username": "Sara Mahmoud Mohamed ",
+            "password": "$2b$12$sHMrqKaeD3OkRVt1bJ/Qde0B.bw8qUTMm.1zdrLVrfGwlfRtnca5i",
+            "grade": "G11",
+            "phone": "011 14668112 ",
+            "isStemQena": false,
+            "createdAt": "2025-11-19T09:17:30.424Z"
+        },
+        {
+            "email": "salmafawzi117@gmail.com",
+            "username": "Salma fawzi",
+            "password": "$2b$12$40H3hNnNx/b.iAgUZu0K3ehUoEeQg5atS8pKp7my1v/Qc69EwIyJe",
+            "grade": "G12",
+            "phone": "01026572711",
+            "isStemQena": false,
+            "createdAt": "2025-11-19T16:23:51.006Z"
+        },
+        {
+            "email": "abdallah.2323021@stemqena.moe.edu.eg",
+            "username": "Abdallah Ahmed",
+            "password": "$2b$12$Qvt1oTthqdkMmKm2r6D/dOMHfnOfGrQeQFlrwsRUZnXQTg7ungdrq",
+            "grade": "G12",
+            "phone": "+201064461800",
+            "isStemQena": true,
+            "createdAt": "2025-11-20T15:57:24.445Z"
+        },
+        {
+            "email": "buthinaahmed808@gmail.com",
+            "username": "Bothina",
+            "password": "$2b$12$aXCQo6ISRvGXdQuBujPDXO12oiwQjHHe5AWFNiE39xHQ7FNizHqxC",
+            "grade": "G12",
+            "phone": "01116703860",
+            "isStemQena": false,
+            "createdAt": "2025-11-21T09:26:12.684Z"
+        },
+        {
+            "email": "bothina.2323505@stemqena.moe.edu.eg",
+            "username": "Bothina",
+            "password": "$2b$12$2YQzGiti/I3pdlWsH1GKPuiLL.1uuohEGxk/BXmvO5KvOHxgbG8.6",
+            "grade": "G12",
+            "phone": "01116703860",
+            "isStemQena": true,
+            "createdAt": "2025-11-21T09:43:22.052Z"
+        },
+        {
+            "email": "salma.2324530@stemqena.moe.edu.eg",
+            "username": "Salma Ahmed",
+            "password": "$2b$12$KH1yzKJaoGP1zy6Zkvfb6.F1zhBgYsu2QuUF9..LIl9J/sUqxJfvC",
+            "grade": "G11",
+            "phone": "01014931166",
+            "isStemQena": true,
+            "createdAt": "2025-11-21T11:03:13.419Z"
+        },
+        {
+            "email": "sarah.2324529@stemqena.moe.edu.eg",
+            "username": "Sara Mahmoud Mohamed ",
+            "password": "$2b$12$1.ERwvrkKsAjoIfBR3y8OukuLthNcIi41LFSb3iWKbJ8VoPSbhrVO",
+            "grade": "G11",
+            "phone": "011 14668112 ",
+            "isStemQena": true,
+            "createdAt": "2025-11-21T11:35:21.167Z"
+        },
+        {
+            "email": "m84480124@gmail.com",
+            "username": "Mai",
+            "password": "$2b$12$Ry.Njc0ek2f.WOc0kQOFYut90pRK2y3sLlt3JFhNHf4WRiGmGB.P6",
+            "grade": "G12",
+            "phone": "01110445313",
+            "isStemQena": false,
+            "createdAt": "2025-11-21T15:00:36.871Z"
+        },
+        {
+            "email": "mai.2323550@stemqena.moe.edu.eg",
+            "username": "Mai",
+            "password": "$2b$12$x.S/tfBLGrnBAcYWW/vZ5OIs5YRzDu/Q9QCLAVF5y5fT7RbM7yP0S",
+            "grade": "G12",
+            "phone": "01110445313",
+            "isStemQena": true,
+            "createdAt": "2025-11-21T15:53:00.087Z"
+        },
+        {
+            "email": "loaaomarhassan@gmail.com",
+            "username": "Loaa Omar ",
+            "password": "$2b$12$CREKzN4DY6dH9vmumqdsE.e00rxG8HS9fPVX1LK6UqAF8pAKJjhMe",
+            "grade": "G11",
+            "phone": "01033626260",
+            "isStemQena": false,
+            "createdAt": "2025-11-22T07:09:02.018Z"
+        },
+        {
+            "email": "basmala.2324510@stemqena.moe.edu.eg",
+            "username": "Basmala Ahmed ",
+            "password": "$2b$12$NVFpCIwVlBvd2WQSVU6WTOlL7CoSnMV/t6lLNSbbX4E5LMbC6Sbuq",
+            "grade": "G11",
+            "phone": "01017170037 ",
+            "isStemQena": true,
+            "createdAt": "2025-11-22T07:26:25.281Z"
+        },
+        {
+            "email": "mena.2323050@stemqena.moe.edu.eg",
+            "username": "Mena Magdy Effat",
+            "password": "$2b$12$OFf.qO6zm1R7UMSZhcoHs.ckXjnQY1MLG34uzYgToVwrgWHKUbry6",
+            "grade": "G12",
+            "phone": "01009104356",
+            "isStemQena": true,
+            "createdAt": "2025-11-22T20:25:09.831Z"
+        },
+        {
+            "email": "retaj.2324525@stemqena.moe.edu.eg",
+            "username": "Retaj Fathy Abdelmegeed Ali ",
+            "password": "$2b$12$4wUi.raBDuBPjO0P2dkjaeQX2JkmxfqhyGEeI9N.CIYnz4w0MoioC",
+            "grade": "G11",
+            "phone": "01032134135",
+            "isStemQena": true,
+            "createdAt": "2025-11-23T06:24:00.167Z"
+        },
+        {
+            "email": "hamsyahya1@gmail.com",
+            "username": "Hams ",
+            "password": "$2b$12$FPcD1BiDzBQMWyMsQG6.Z.icH99o2.L5mrwpah4gJEitWQW6ZRIzq",
+            "grade": "G12",
+            "phone": "+201111143205",
+            "isStemQena": false,
+            "createdAt": "2025-11-23T18:01:03.091Z"
+        },
+        {
+            "email": "hams.2323554@stemqena.moe.edu.eg",
+            "username": "Hams Nader ",
+            "password": "$2b$12$xNdStoDRzxufbqrn0pMhpegn.Z5f72ORFL0cMOBHQ8xeb9Zqn4z4W",
+            "grade": "G12",
+            "phone": "+201111143205",
+            "isStemQena": true,
+            "createdAt": "2025-11-23T18:02:03.536Z"
+        },
+        {
+            "email": "yassin.2325033@stemqena.moe.edu.eg",
+            "username": "yassen tarek ibrahim ibrahim easa",
+            "password": "$2b$12$H2jZ.1DrV1Xl17zINoo8lOUXy1IexOjJ4olPbkkDznR8Xe9gFT9qa",
+            "grade": "G10",
+            "phone": "01228202034",
+            "isStemQena": true,
+            "createdAt": "2025-11-24T10:17:23.043Z"
+        },
+        {
+            "email": "fouad.2323034@stemqena.moe.edu.eg",
+            "username": "Foad Mohamed foad",
+            "password": "$2b$12$KEFKYlNZMXcmXiQDQWCKT.2BQkkcGl6kILUiekPjnsy.wczFsLdzO",
+            "grade": "G12",
+            "phone": "01119209621",
+            "isStemQena": true,
+            "createdAt": "2025-11-24T11:32:18.010Z"
+        },
+        {
+            "email": "ahlam.2323502@stemqena.moe.edu.eg",
+            "username": "Ahlam Ezz",
+            "password": "$2b$12$Wk.ZF7RIi3E231e2.bR.iO4EMiwfCiW7dt8Y8VWT7oYeJK4GVsQam",
+            "grade": "G12",
+            "phone": "01017607661",
+            "isStemQena": true,
+            "createdAt": "2025-11-25T08:53:15.580Z"
+        },
+        {
+            "email": "youssefashor2008@gmail.com",
+            "username": "Youssef Khaled Mohamed ",
+            "password": "$2b$12$.axjnplT8eMEVdebuS1i4.bVc4MEQ5GjXJPDr678GQ0xIXOPY43iW",
+            "grade": "G12",
+            "phone": "01552684490",
+            "isStemQena": false,
+            "createdAt": "2025-11-25T14:15:54.878Z"
+        },
+        {
+            "email": "youssef.2323056@stemqena.moe.edu.eg",
+            "username": "Youssef Ashour",
+            "password": "$2b$12$Kl2Py14CfvdavnlaFtyU3eaCQEfJ5HFfSWATCcGA9is.i3caXAI9K",
+            "grade": "G12",
+            "phone": "01552684490",
+            "isStemQena": true,
+            "createdAt": "2025-11-25T14:28:00.695Z"
+        },
+        {
+            "email": "tokataher1112008@gmail.com",
+            "username": "Toka Taher",
+            "password": "$2b$12$JataXxAoepgCjZCbTsCX8u8OI53h4UPrXVKj8HjRhcS9kI1gcq0WK",
+            "grade": "G12",
+            "phone": "01284816842",
+            "isStemQena": false,
+            "createdAt": "2025-11-28T12:27:24.746Z"
+        },
+        {
+            "email": "toka.2323508@stemqena.moe.edu.eg",
+            "username": "Toka Taher ",
+            "password": "$2b$12$MEjF8m/MZ.dEhEZCLrSTHOgpnp2.IPriJSpTnVtm44Book3abYUbS",
+            "grade": "G12",
+            "phone": "01284816842",
+            "isStemQena": true,
+            "createdAt": "2025-11-28T12:28:47.699Z"
+        },
+        {
+            "email": "jooaboouf03@gmail.com",
+            "username": "Yousef",
+            "password": "$2b$12$6d2do0/gsI0NVlJA1EJxxeVfXbjynCqAGWuXT6/FNLQtufOqjxtQ6",
+            "grade": "G12",
+            "phone": "01271543188",
+            "isStemQena": false,
+            "createdAt": "2025-11-29T10:32:23.257Z"
+        },
+        {
+            "email": "youssefaliashryali@gmail.com",
+            "username": "Youssef Ali",
+            "password": "$2b$12$/XO2ivW6bYpiTE8vOUAVh.uryWwxiV6/HH9IhUX.jYXLeE9xbbPGe",
+            "grade": "G12",
+            "phone": "01023409583",
+            "isStemQena": false,
+            "createdAt": "2025-11-29T10:40:06.869Z"
+        },
+        {
+            "email": "omar.2323027@stemqena.moe.edu.eg",
+            "username": "Omar Ahmed Mohamed Allam",
+            "password": "$2b$12$CsFS96iaQEUB9Ioj/JrSKe/vJKkKgP.YdECv7LrFqg0CEcbQnRXvW",
+            "grade": "G12",
+            "phone": "+20 1202506367",
+            "isStemQena": true,
+            "createdAt": "2025-11-29T14:11:31.400Z"
+        },
+        {
+            "email": "alaa.2324504@stemqena.moe.edu.eg",
+            "username": "Alaa Abdelnaby",
+            "password": "$2b$12$BLlqC6zCAQQzisppJDXb8eVic.RP/iCFJz3Rwe69FPwUDow/nMibm",
+            "grade": "G11",
+            "phone": "01281737939",
+            "isStemQena": true,
+            "createdAt": "2025-11-29T20:11:08.537Z"
+        },
+        {
+            "email": "mariam.2323544@stemqena.moe.edu.eg",
+            "username": "Mariam Mohamed ",
+            "password": "$2b$12$p0teLYn54uB1c5cUoUSDpOXO9X14dXPeWvHbUlqZzioYkAdY1MMIq",
+            "grade": "G12",
+            "phone": "01150301823",
+            "isStemQena": true,
+            "createdAt": "2025-11-30T09:57:31.568Z"
+        },
+        {
+            "email": "salma.2323534@stemqena.moe.edu.eg",
+            "username": "Salma fawzi",
+            "password": "$2b$12$GfbXnA98il/ojLDf2FrIjOqFnPlimg8vGb/mjlmPf1IVR/X9sk2X.",
+            "grade": "G12",
+            "phone": "01026572711",
+            "isStemQena": true,
+            "createdAt": "2025-11-30T09:57:43.192Z"
+        },
+        {
+            "email": "marwan.2323047@stemqena.moe.edu.eg",
+            "username": "Marwan Mahmoud Mohamed Noor ",
+            "password": "$2b$12$RMa8fmAnQnqkxSApQKfwHutQLirj/bE5pFVysLIlJqRS94TSUQxhK",
+            "grade": "G12",
+            "phone": "01152811418",
+            "isStemQena": true,
+            "createdAt": "2025-11-30T17:52:57.208Z"
+        },
+        {
+            "email": "sara.2323529@stemqena.moe.edu.eg",
+            "username": "Sara Ahmed",
+            "password": "$2b$12$Ur0oXxwyRi.X3s8obvBFo.oZYDBamlkEPnVon4NXWX8iIae0HQT4a",
+            "grade": "G12",
+            "phone": "01093972315",
+            "isStemQena": true,
+            "createdAt": "2025-11-30T19:12:08.768Z"
+        },
+        {
+            "email": "mohanadnaeem2007@gmail.com",
+            "username": "Mohanad ",
+            "password": "$2b$12$HxKeEQbKNaDckmyWsrs1xu5y2ajYaok3GUZMnbmZmWElItA4NRVvC",
+            "grade": "G12",
+            "phone": "01558771524",
+            "isStemQena": false,
+            "createdAt": "2025-12-01T07:01:53.733Z"
+        },
+        {
+            "email": "jannat.2324515@stemqena.moe.edu.eg",
+            "username": "Jannat Barakat Mohamed Ali Omar ",
+            "password": "$2b$12$4t.jHFQt/2bciSmlVH7uh.vEoIqijbmGY/RMd/3enqi4kW2BP65aO",
+            "grade": "G11",
+            "phone": "01068173799",
+            "isStemQena": true,
+            "createdAt": "2025-12-01T07:15:39.587Z"
+        },
+        {
+            "email": "nour.2324555@stemqena.moe.edu.eg",
+            "username": "Noor Aboalwafa Hassan",
+            "password": "$2b$12$XtBoY1RNPv6qXhbjcsKt1OAUSQ9Ve4ltd3wpfc02usNnFqL/k256e",
+            "grade": "G11",
+            "phone": "01080999553",
+            "isStemQena": true,
+            "createdAt": "2025-12-01T07:31:13.110Z"
+        },
+        {
+            "email": "hala.2324519@stemqena.moe.edu.eg",
+            "username": "Hala Mohamed",
+            "password": "$2b$12$dfjrVE5AdwL4R2CK28Wew.MRG8nxiAI5PjfDH3x9W1marmSGmi8v.",
+            "grade": "G11",
+            "phone": "+201097971738",
+            "isStemQena": true,
+            "createdAt": "2025-12-01T07:32:29.816Z"
+        },
+        {
+            "email": "ramez.2323012@stemqena.moe.edu.eg",
+            "username": "Ramez Osama Abass Elwakil ",
+            "password": "$2b$12$19QprD/vrD4o2Cb/8rc6teILpxUa5F5dVSG4AKFXU4BD01rDyHRam",
+            "grade": "G12",
+            "phone": "01277294555",
+            "isStemQena": true,
+            "createdAt": "2025-12-01T07:34:47.303Z"
+        },
+        {
+            "email": "lobna.elshamy2020@gmail.com",
+            "username": "lobna",
+            "password": "$2b$12$KTtSLpjuSAAQYauZc7avU.ol0RTwCDMVinbI.rVetkWEAAlYfYxum",
+            "grade": "G10",
+            "phone": "01552295545",
+            "isStemQena": false,
+            "createdAt": "2025-12-01T08:37:13.536Z"
+        },
+        {
+            "email": "lobna.2325528@stemqena.moe.edu.eg",
+            "username": "lobna khaled",
+            "password": "$2b$12$Wpur51npuL43Kb0VKMOaKeEZyWnrLc4OyQyVnOjgXZ4XLQfQhA0ES",
+            "grade": "G10",
+            "phone": "01552295545",
+            "isStemQena": true,
+            "createdAt": "2025-12-01T08:47:25.252Z"
+        },
+        {
+            "email": "khadija.2324521@stemqena.moe.edu.eg",
+            "username": "khadiga ayman ",
+            "password": "$2b$12$VrMnwxBToOAplUUuaszsGO3ocMq7kSShuuocAdP6kIhXFARzFn3Xe",
+            "grade": "G11",
+            "phone": "01128098786",
+            "isStemQena": true,
+            "createdAt": "2025-12-01T16:33:00.513Z"
+        },
+        {
+            "email": "radwa.2323520@stemqena.moe.edu.eg",
+            "username": "Radwa Waleed ",
+            "password": "$2b$12$25Dx1By/HTGLDyy4O1yZX.P/Rh5TVEsVa7s.nV71LTFgAnxHGwGLi",
+            "grade": "G12",
+            "phone": "01553439717",
+            "isStemQena": true,
+            "createdAt": "2025-12-01T16:44:22.391Z"
+        },
+        {
+            "email": "za9544763@gmail.com",
+            "username": "Zeinab ali abualmajd ",
+            "password": "$2b$12$T7qmQiLIDaulTLLEd1NOIeqwOkO1mdOxUeDS.oTBy3qxsCW7D.Wey",
+            "grade": "G11",
+            "phone": "01145244426",
+            "isStemQena": false,
+            "createdAt": "2025-12-02T06:56:40.607Z"
+        },
+        {
+            "email": "loaa.2324538@stemqena.moe.edu.eg",
+            "username": "Loaa ",
+            "password": "$2b$12$45iag10L3hEvF3Xe2LkGyuQ4YNuWLc.wffOmQSMQ3/.ZkwWJgf6mi",
+            "grade": "G11",
+            "phone": "01033626260",
+            "isStemQena": true,
+            "createdAt": "2025-12-02T06:57:00.048Z"
+        },
+        {
+            "email": "justin.2324020@stemqena.moe.edu.eg",
+            "username": "Justin Mena Fekry Shaker",
+            "password": "$2b$12$Kob7zTu6MMm3l9UrHraLIumOk96fbPCOkqixa5Us/MxJ4LavbZ3U.",
+            "grade": "G11",
+            "phone": "+201285604128",
+            "isStemQena": true,
+            "createdAt": "2025-12-02T08:05:45.010Z"
+        },
+        {
+            "email": "zainab.2324528@stemqena.moe.edu.eg",
+            "username": "Zeinab ali",
+            "password": "$2b$12$etj1/xohCagG.AHVj8u2MuuGFIpxx5Ip4mFC8S5aozFU0oWa.mIo.",
+            "grade": "G11",
+            "phone": "01145244326",
+            "isStemQena": true,
+            "createdAt": "2025-12-02T08:22:19.123Z"
+        },
+        {
+            "email": "mohamed.2325028@stemqena.moe.edu.eg",
+            "username": "Mohamed Hashem Mohamed",
+            "password": "$2b$12$XKNLRFHxiEqM9ouBEb0VReU4sDyixi.mli/Q8aO66cdsquGMH/D.O",
+            "grade": "G10",
+            "phone": "01030190585",
+            "isStemQena": true,
+            "createdAt": "2025-12-02T17:36:48.550Z"
+        }
+    ]
+}
