@@ -1,6 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server'
-import fs from 'fs'
-import path from 'path'
 import { formatInTimeZone, toZonedTime } from 'date-fns-tz'
 import { addDays } from 'date-fns'
 
@@ -13,68 +11,77 @@ export const revalidate = 0
 export const fetchCache = 'force-no-store'
 
 export async function GET(request: NextRequest) {
-  try {
-    // Instead of generating PDF on server, redirect to a printable page
-    // or return HTML that can be printed to PDF
-    const htmlContent = await generateHTMLSchedule()
-    
-    return new NextResponse(htmlContent, {
-      status: 200,
-      headers: {
-        'Content-Type': 'text/html; charset=utf-8',
-        'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0',
-        'Pragma': 'no-cache',
-        'Expires': '0',
-        'X-Accel-Buffering': 'no', // Disable nginx buffering if used
-      }
-    })
+    try {
+        // Instead of generating PDF on server, redirect to a printable page
+        // or return HTML that can be printed to PDF
+        const htmlContent = await generateHTMLSchedule()
 
-  } catch (error) {
-    console.error('Error generating schedule:', error)
-    const errorMessage = error instanceof Error ? error.message : 'Unknown error'
-    return new NextResponse(
-      JSON.stringify({ 
-        error: 'Failed to generate schedule',
-        details: errorMessage 
-      }),
-      {
-        status: 500,
-        headers: {
-          'Content-Type': 'application/json',
-        }
-      }
-    )
-  }
+        return new NextResponse(htmlContent, {
+            status: 200,
+            headers: {
+                'Content-Type': 'text/html; charset=utf-8',
+                'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0',
+                'Pragma': 'no-cache',
+                'Expires': '0',
+                'X-Accel-Buffering': 'no', // Disable nginx buffering if used
+            }
+        })
+
+    } catch (error) {
+        console.error('Error generating schedule:', error)
+        const errorMessage = error instanceof Error ? error.message : 'Unknown error'
+        return new NextResponse(
+            JSON.stringify({
+                error: 'Failed to generate schedule',
+                details: errorMessage
+            }),
+            {
+                status: 500,
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            }
+        )
+    }
 }
 
 // Generate HTML schedule that can be printed to PDF
 async function generateHTMLSchedule() {
-  // Read booking data
-  const bookingsPath = path.join(process.cwd(), 'db', 'bookings.json')
-  let bookings: any[] = []
-  
-  try {
-    if (fs.existsSync(bookingsPath)) {
-      const bookingsData = JSON.parse(fs.readFileSync(bookingsPath, 'utf8'))
-      bookings = bookingsData.bookings || []
+    // Read booking data from backend API
+    const apiBase = process.env.NEXT_PUBLIC_API_BASE || 'https://api.fablabqena.com'
+    let bookings: any[] = []
+
+    try {
+        const res = await fetch(`${apiBase}/bookings/approved`, {
+            cache: 'no-store',
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+
+        if (res.ok) {
+            const data = await res.json()
+            bookings = data.bookings || []
+        } else {
+            console.error('Failed to fetch bookings from backend:', res.status, await res.text())
+        }
+    } catch (error) {
+        console.error('Error fetching bookings from backend:', error)
     }
-  } catch (error) {
-    console.error('Error reading bookings:', error)
-  }
 
-  // Generate schedule data - use current date in Egypt timezone (EET UTC+2)
-  const now = new Date()
-  
-  // Use date-fns-tz to format time and date in Egypt timezone
-  // formatInTimeZone correctly converts UTC to Egypt time (EET UTC+2)
-  const generatedDate = formatInTimeZone(now, EGYPT_TIMEZONE, 'EEEE, MMMM d, yyyy')
-  const generatedTime = formatInTimeZone(now, EGYPT_TIMEZONE, 'hh:mm a')
-  
-  const today = now
-  const scheduleData = generateScheduleData(today, bookings)
+    // Generate schedule data - use current date in Egypt timezone (EET UTC+2)
+    const now = new Date()
 
-  // Generate HTML with improved design and screenshot functionality
-  const html = `<!DOCTYPE html>
+    // Use date-fns-tz to format time and date in Egypt timezone
+    // formatInTimeZone correctly converts UTC to Egypt time (EET UTC+2)
+    const generatedDate = formatInTimeZone(now, EGYPT_TIMEZONE, 'EEEE, MMMM d, yyyy')
+    const generatedTime = formatInTimeZone(now, EGYPT_TIMEZONE, 'hh:mm a')
+
+    const today = now
+    const scheduleData = generateScheduleData(today, bookings)
+
+    // Generate HTML with improved design and screenshot functionality
+    const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -466,9 +473,9 @@ async function generateHTMLSchedule() {
                     <div class="day-header-content">${day.dateLabel}</div>
                     ${!day.isClosed ? `<button class="screenshot-btn no-print" onclick="screenshotDay(${index})" title="Screenshot this day">📷 Screenshot</button>` : ''}
                 </div>
-                ${day.isClosed ? 
-                    '<p class="closed">CLOSED</p>' : 
-                    `<table>
+                ${day.isClosed ?
+            '<p class="closed">CLOSED</p>' :
+            `<table>
                         <thead>
                             <tr>
                                 <th>Time Slot</th>
@@ -488,7 +495,7 @@ async function generateHTMLSchedule() {
                             `).join('')}
                         </tbody>
                     </table>`
-                }
+        }
             </div>
         `).join('')}
         
@@ -544,115 +551,115 @@ async function generateHTMLSchedule() {
 </body>
 </html>`
 
-  return html
+    return html
 }
 
 // Generate schedule data for the next 7 days
 // All dates are calculated based on Egypt timezone (EET UTC+2)
 function generateScheduleData(startDate: Date, bookings: any[]) {
-  const scheduleData = []
-  
-  // Get current date/time in Egypt timezone (EET UTC+2)
-  const nowInEgypt = toZonedTime(startDate, EGYPT_TIMEZONE)
-  
-  for (let i = 0; i < 7; i++) {
-    // Calculate target date in Egypt timezone by adding i days
-    const targetDateInEgypt = addDays(nowInEgypt, i)
-    
-    // Format date string in Egypt timezone
-    const dateStr = formatInTimeZone(targetDateInEgypt, EGYPT_TIMEZONE, 'yyyy-MM-dd')
-    
-    // Get day name in Egypt timezone to determine day of week accurately
-    const dayName = formatInTimeZone(targetDateInEgypt, EGYPT_TIMEZONE, 'EEEE')
-    
-    // Map day name to day of week number (0=Sunday, 6=Saturday)
-    const dayNameToNumber: { [key: string]: number } = {
-      'Sunday': 0,
-      'Monday': 1,
-      'Tuesday': 2,
-      'Wednesday': 3,
-      'Thursday': 4,
-      'Friday': 5,
-      'Saturday': 6
-    }
-    const dayOfWeek = dayNameToNumber[dayName] ?? 0
-    
-    // Format date label in Egypt timezone
-    const dateLabel = formatInTimeZone(targetDateInEgypt, EGYPT_TIMEZONE, 'EEEE, MMM d') + ` (${dateStr})`
-    
-    const dayData = {
-      date: dateStr,
-      dateLabel: dateLabel,
-      isClosed: dayOfWeek >= 5, // Friday (5) and Saturday (6) are closed
-      timeSlots: [] as any[]
-    }
-    
-    if (!dayData.isClosed) {
-      // Generate time slots based on your booking rules
-      const lastHour = dayOfWeek === 4 ? 11 : 13 // Thursday last slot 11:00, others 13:00 (1PM)
-      
-      for (let hour = 8; hour <= lastHour; hour++) {
-        const timeStr = formatTime(hour)
-        const slotData = getBookingCountForSlot(dateStr, timeStr, bookings)
-        const bookingsCount = slotData.count
-        const groupNumbers = slotData.groupNumbers
-        const maxBookings = 2
-        
-        let status = 'available'
-        let statusText = 'Available'
-        
-        if (bookingsCount === 0) {
-          status = 'available'
-          statusText = 'Available'
-        } else if (bookingsCount < maxBookings) {
-          status = 'limited'
-          statusText = 'Limited'
-        } else {
-          status = 'full'
-          statusText = 'Full'
+    const scheduleData = []
+
+    // Get current date/time in Egypt timezone (EET UTC+2)
+    const nowInEgypt = toZonedTime(startDate, EGYPT_TIMEZONE)
+
+    for (let i = 0; i < 7; i++) {
+        // Calculate target date in Egypt timezone by adding i days
+        const targetDateInEgypt = addDays(nowInEgypt, i)
+
+        // Format date string in Egypt timezone
+        const dateStr = formatInTimeZone(targetDateInEgypt, EGYPT_TIMEZONE, 'yyyy-MM-dd')
+
+        // Get day name in Egypt timezone to determine day of week accurately
+        const dayName = formatInTimeZone(targetDateInEgypt, EGYPT_TIMEZONE, 'EEEE')
+
+        // Map day name to day of week number (0=Sunday, 6=Saturday)
+        const dayNameToNumber: { [key: string]: number } = {
+            'Sunday': 0,
+            'Monday': 1,
+            'Tuesday': 2,
+            'Wednesday': 3,
+            'Thursday': 4,
+            'Friday': 5,
+            'Saturday': 6
         }
-        
-        dayData.timeSlots.push({
-          time: timeStr,
-          bookings: bookingsCount,
-          groupNumbers: groupNumbers,
-          maxBookings: maxBookings,
-          status: status,
-          statusText: statusText
-        })
-      }
+        const dayOfWeek = dayNameToNumber[dayName] ?? 0
+
+        // Format date label in Egypt timezone
+        const dateLabel = formatInTimeZone(targetDateInEgypt, EGYPT_TIMEZONE, 'EEEE, MMM d') + ` (${dateStr})`
+
+        const dayData = {
+            date: dateStr,
+            dateLabel: dateLabel,
+            isClosed: dayOfWeek >= 5, // Friday (5) and Saturday (6) are closed
+            timeSlots: [] as any[]
+        }
+
+        if (!dayData.isClosed) {
+            // Generate time slots based on your booking rules
+            const lastHour = dayOfWeek === 4 ? 11 : 13 // Thursday last slot 11:00, others 13:00 (1PM)
+
+            for (let hour = 8; hour <= lastHour; hour++) {
+                const timeStr = formatTime(hour)
+                const slotData = getBookingCountForSlot(dateStr, timeStr, bookings)
+                const bookingsCount = slotData.count
+                const groupNumbers = slotData.groupNumbers
+                const maxBookings = 2
+
+                let status = 'available'
+                let statusText = 'Available'
+
+                if (bookingsCount === 0) {
+                    status = 'available'
+                    statusText = 'Available'
+                } else if (bookingsCount < maxBookings) {
+                    status = 'limited'
+                    statusText = 'Limited'
+                } else {
+                    status = 'full'
+                    statusText = 'Full'
+                }
+
+                dayData.timeSlots.push({
+                    time: timeStr,
+                    bookings: bookingsCount,
+                    groupNumbers: groupNumbers,
+                    maxBookings: maxBookings,
+                    status: status,
+                    statusText: statusText
+                })
+            }
+        }
+
+        scheduleData.push(dayData)
     }
-    
-    scheduleData.push(dayData)
-  }
-  
-  return scheduleData
+
+    return scheduleData
 }
 
 // Format time in 12-hour format
 function formatTime(hour24: number): string {
-  const period = hour24 >= 12 ? 'PM' : 'AM'
-  const hour12 = hour24 % 12 === 0 ? 12 : hour24 % 12
-  const padded = hour12 < 10 ? `0${hour12}` : `${hour12}`
-  return `${padded}:00 ${period}`
+    const period = hour24 >= 12 ? 'PM' : 'AM'
+    const hour12 = hour24 % 12 === 0 ? 12 : hour24 % 12
+    const padded = hour12 < 10 ? `0${hour12}` : `${hour12}`
+    return `${padded}:00 ${period}`
 }
 
 // Get booking count and group numbers for a specific date and time slot
 function getBookingCountForSlot(date: string, time: string, bookings: any[]): { count: number, groupNumbers: string[] } {
-  // Get approved bookings for this slot
-  const slotBookings = bookings.filter((booking: any) => 
-    booking.date === date && 
-    booking.time === time && 
-    booking.status === 'approved'
-  )
-  
-  const groupNumbers = slotBookings
-    .map((booking: any) => booking.groupNumber)
-    .filter((num: any) => num !== undefined && num !== null)
-    .map((num: any) => `G${num}`)
-  
-  return {
-    count: slotBookings.length,
-    groupNumbers: groupNumbers
-  }
+    // Get approved bookings for this slot
+    const slotBookings = bookings.filter((booking: any) =>
+        booking.date === date &&
+        booking.time === time &&
+        booking.status === 'approved'
+    )
+
+    const groupNumbers = slotBookings
+        .map((booking: any) => booking.groupNumber)
+        .filter((num: any) => num !== undefined && num !== null)
+        .map((num: any) => `G${num}`)
+
+    return {
+        count: slotBookings.length,
+        groupNumbers: groupNumbers
+    }
 }
